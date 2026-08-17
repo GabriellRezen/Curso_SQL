@@ -1,8 +1,8 @@
-SELECT *
+SELECT * 
 
 FROM (
-    SELECT *
-    FROM transacoes
+    SELECT * 
+    FROM transacoes 
     WHERE DtCriacao >= '2025-01-01'
 )
 
